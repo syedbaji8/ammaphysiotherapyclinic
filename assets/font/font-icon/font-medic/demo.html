@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fontsaddict WebFont</title>
+    <link rel="stylesheet" type="text/css" href="font-medic.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+	$(document).ready(function(){
+							   $('.class-name').each(function(){
+															  $(this).text($(this).parent().find('.glyph-icon').attr('class'));
+															  });
+							   
+							   
+							   });
+	</script>
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="icon-"]:before, [class*=" icon-"]:before, [class^="icon-"]:after, [class*=" icon-"]:after {
+        font-family: medic-font;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#415B76;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"phyFonts";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #333333;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #415B76;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#415B76;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"phyFonts";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#555555;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#415B76;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#415B76;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <section id="glyphs">
+<div class="glyph"><div class="glyph-icon icon-orthopedic1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic2"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic3"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic4"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic5"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic6"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic7"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-orthopedic8"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-fast-food"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-moon-night"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-prenancy1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-close-bracket"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-Dental1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-Dental2"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-Dental3"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-Dental4"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-vet-clinic1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-vet-clinic2"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-vet-clinic3"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-vet-clinic4"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dermatology1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dermatology2"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dermatology3"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dermatology4"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hmail"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hphone"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-ambulance1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-ambulance"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-aspirins"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-atom"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-awareness-ribbon"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bandage-cross"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bathroom-scales"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-biohazard"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-biology-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-analysis"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-cell"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-drop"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-pressure-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-sample"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-blood-transfusion"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-brain-bald-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-broken-bone"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-broken-feet-bandage"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-brush-tooth-paste"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-caduceus"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-caduceus-cane-wings"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-cells-circle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-chemistry-flask-liquid"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-crutch"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-crutches-couple"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dentist-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dna-sequence"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-dosage-medical-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-drip-bag"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-drop-hospital"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-drug-pills"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-drugs-capsules-pills"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-electrocardiogram-screen"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-emergency-light"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-esophagus"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-eye-closeup"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-eye-scanner-medical"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-family-heterosexual"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-female-body"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-female-sign"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-first-aid-kit"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-first-aid-kit-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-glasses"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-handicap"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-head-with-brain"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-health-crutches"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-health-drip"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-health-thermometer"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-heart-beats-lifeline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-heart-black-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-heart-organ"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-heart-rate-monitor"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-heart-electrocardiogram"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-bed"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bed-silhouette-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-building"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-building-front"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-drip-bag"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-letter-sign-rounded"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-medical-signal-circle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-placeholder"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-symbol"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hospital-syringe"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-human-brain"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-human-ear-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-human-eye-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-human-feet-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-human-skull"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-hurted-finger-bandage"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-illness-on-bed"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-lab-microscope"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-lifeline-heartbeats-clipboard"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-lungs-organ"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-lungs-silhouette"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-male-female-symbols"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-male-gender-sign"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-chain-symbol-of-dna"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-chopper-transport"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-circular-glasses"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-doctor-specialist"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-hammer-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-heart-scan"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-notes-clipboard"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-pill"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-results-folders"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medical-samples-tubes"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-talk-speech-bubble"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-temperature-control-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medicine-capsules"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-medicines-bowl"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bottle-drops-dosage"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-men-silhouette"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-microscope-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-molar"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-mother-baby-arms"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-mouth-bald-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-negative-sign-clipboard"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-no-smoking-sign"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-nurse"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-nurse-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-nurse-silhouette"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-opened-medical-scissors"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-oxygen"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-person-broken-arm"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pharmacy-icon"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pharmacy-shopping-cart"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pharmacy-symbol"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pharmacy-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-phonendoscope"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pills-bottle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-poison-bottle-skull"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-positive-verified"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pregnancy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pulse-line"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rolled-paper-bathroom"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rubbish-bin"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-scale-balanced-tool"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-scale-tool-body-weight"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-scalpel"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-scalpel-knife-surgery"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-screw"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-silhouette-wheelchair"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-skull-crossbones"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-sperm"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-star-of-life"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-stethoscope-heart-beats"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-sticking-plaster"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-stomach"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-stomach-shape"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-symbolic-cancer-ribbon"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-syringe-medicine"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-syrup-medicine-bottle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-tag-cross"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-teeth-silhouette"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-test-tubes"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-thermometer-fever-temperature"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-three-hexagons-cell"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-toxic-sign"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-toxic-symbol"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-two-color-pill"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-unhealthy-condition"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-united-heterosexual"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-water-glass"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-weight-silhouette-practice"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-women-silhouette"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-x-ray-bones"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-diaper"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-diaper-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-diaper-2"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bottle-handles"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-duck-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-dummy-bear-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-face-crying"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-flash-cards-image"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-footprints"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-girl-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-hat"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-head-pacifier"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-head-heart"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-male-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-mobile-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-onesie"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-onesie-smiling"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-onesie-pocket"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-pacifier"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-pot-spoon"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-rattle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-rattle-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-rattle-flower"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-ring-tower"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-box-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-shoes"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-standing-pants"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-stroller"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-stroller-rounded"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-stroller-side-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-transport-side-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-walker"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-wearing-diaper"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-pacifier-sign"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-wrapped-swaddle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-balloons-couple"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bear-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bear-rattle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bear-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-car-baby-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-circular-button"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-crayon"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-cup-spoon-inside"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-diaper-heart-safety-pin"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-divider-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-duck-side-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-female-baby-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-female-baby-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-flower-smile"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-fork-knife-plate"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-air-balloon-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-moon-stars"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-number-blocks-toys"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pacifier-babies"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-pregnant-woman"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rainbow"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rattle-for-babies"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rattle-for-babies-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-rattle-star"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-sad-baby-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-security-pin-opened"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-skate-handle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-sleeping-baby"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-smiling-sun"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-sock-side-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-square-blocks"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-stork-carrying-bag"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-tool-listen-baby"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-toy-ball"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-toy-car-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-horse-rocking-chair"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-truck-side-view"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-two-pieces-puzzle"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-heart"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-abc-squares"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-abacus-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-abc-cubes"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bag-flower"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-ball-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bath-balls"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bear-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bed"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bed-mobile-toy"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-cloth"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-flower"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-fish"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-animal-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-soccer-ball"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bib-heart-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-bike-training-wheels"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bottle-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bottle-outline-1"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bottle-heart"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-bottle-face"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-chair"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-cloth-rabbit-head"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-cream-outline"></div><div class="class-name"></div></div>
+<div class="glyph"><div class="glyph-icon icon-baby-crib-mobile"></div><div class="class-name"></div></div>
+</section>
+
+<section class="attribution">
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.fontsaddict.com">FontsAddict.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. Please include attribution to the authors when using these icons.</div><br />
+
+<textarea>Font generated by &lt;a href=&quot;http://www.fontsaddict.com&quot;&gt;fontsaddict.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. Please include attribution to the authors when using these icons.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image">
+		<p>&lt;i class=&quot;icon-back-pain&quot;&gt;&lt;/i&gt; <i class="icon-back-pain"></i></p>
+		<p>&lt;i class=&quot;icon-patient&quot;&gt;&lt;/i&gt; <i class="icon-patient"></i></p>
+		<p>&lt;i class=&quot;icon-cripple&quot;&gt;&lt;/i&gt; <i class="icon-cripple"></i></p>
+		<p>&lt;i class=&quot;icon-atom&quot;&gt;&lt;/i&gt; <i class="icon-atom"></i></p>
+		<p>&lt;i class=&quot;icon-broken&quot;&gt;&lt;/i&gt; <i class="icon-broken"></i></p>
+		<p>&lt;i class=&quot;icon-medicine&quot;&gt;&lt;/i&gt; <i class="icon-medicine"></i></p>
+		<p>&lt;i class=&quot;icon-dna&quot;&gt;&lt;/i&gt; <i class="icon-dna"></i></p>
+		<p>&lt;i class=&quot;icon-back&quot;&gt;&lt;/i&gt; <i class="icon-back"></i></p>
+		<p>&lt;i class=&quot;icon-human&quot;&gt;&lt;/i&gt; <i class="icon-human"></i></p>
+		<p>&lt;i class=&quot;icon-spond&quot;&gt;&lt;/i&gt; <i class="icon-spond"></i></p>
+		<p>&lt;i class=&quot;icon-human-1&quot;&gt;&lt;/i&gt; <i class="icon-human-1"></i></p>
+		<p>&lt;i class=&quot;icon-x&quot;&gt;&lt;/i&gt; <i class="icon-x"></i></p>
+		<p>&lt;i class=&quot;icon-xray&quot;&gt;&lt;/i&gt; <i class="icon-xray"></i></p>
+		<p>&lt;i class=&quot;icon-back-1&quot;&gt;&lt;/i&gt; <i class="icon-back-1"></i></p>
+		<p>&lt;i class=&quot;icon-chest&quot;&gt;&lt;/i&gt; <i class="icon-chest"></i></p>
+		<p>&lt;i class=&quot;icon-shoulder&quot;&gt;&lt;/i&gt; <i class="icon-shoulder"></i></p>
+		<p>&lt;i class=&quot;icon-neck&quot;&gt;&lt;/i&gt; <i class="icon-neck"></i></p>
+		<p>&lt;i class=&quot;icon-neck-1&quot;&gt;&lt;/i&gt; <i class="icon-neck-1"></i></p>
+		<p>&lt;i class=&quot;icon-shoulder-1&quot;&gt;&lt;/i&gt; <i class="icon-shoulder-1"></i></p>
+		<p>&lt;i class=&quot;icon-medical&quot;&gt;&lt;/i&gt; <i class="icon-medical"></i></p>
+		<p>&lt;i class=&quot;icon-scia&quot;&gt;&lt;/i&gt; <i class="icon-scia"></i></p>
+		<p>&lt;i class=&quot;icon-knee-pain&quot;&gt;&lt;/i&gt; <i class="icon-knee-pain"></i></p>
+		<p>&lt;i class=&quot;icon-dna-1&quot;&gt;&lt;/i&gt; <i class="icon-dna-1"></i></p>
+		<p>&lt;i class=&quot;icon-conversations&quot;&gt;&lt;/i&gt; <i class="icon-conversations"></i></p>
+		<p>&lt;i class=&quot;icon-ambulance-1&quot;&gt;&lt;/i&gt; <i class="icon-ambulance-1"></i></p>
+		<p>&lt;i class=&quot;icon-biochemistry&quot;&gt;&lt;/i&gt; <i class="icon-biochemistry"></i></p>
+		<p>&lt;i class=&quot;icon-medical-1&quot;&gt;&lt;/i&gt; <i class="icon-medical-1"></i></p>
+		<p>&lt;i class=&quot;icon-foot&quot;&gt;&lt;/i&gt; <i class="icon-foot"></i></p>
+		<p>&lt;i class=&quot;icon-call24&quot;&gt;&lt;/i&gt; <i class="icon-call24"></i></p>
+		<p>&lt;i class=&quot;icon-share&quot;&gt;&lt;/i&gt; <i class="icon-share"></i></p>
+		<p>&lt;i class=&quot;icon-ambulance&quot;&gt;&lt;/i&gt; <i class="icon-ambulance"></i></p>
+		<p>&lt;i class=&quot;icon-radiography&quot;&gt;&lt;/i&gt; <i class="icon-radiography"></i></p>
+		<p>&lt;i class=&quot;icon-caduceus&quot;&gt;&lt;/i&gt; <i class="icon-caduceus"></i></p>
+		<p>&lt;i class=&quot;icon-research&quot;&gt;&lt;/i&gt; <i class="icon-research"></i></p>
+		<p>&lt;i class=&quot;icon-md&quot;&gt;&lt;/i&gt; <i class="icon-md"></i></p>
+		<p>&lt;i class=&quot;icon-health&quot;&gt;&lt;/i&gt; <i class="icon-health"></i></p>
+		<p>&lt;i class=&quot;icon-operating&quot;&gt;&lt;/i&gt; <i class="icon-operating"></i></p>		</div></section>
+<div id="footer">
+    <div>Generated by <a href="http://www.fontsaddict.com">fontsaddict.com</a>
+    </div>
+</div>
+	</body>
+</html>

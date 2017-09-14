@@ -1,0 +1,128 @@
+@font-face {
+	font-family: "phyFonts";
+	src: url("phyFonts.eot");
+	src: url("phyFonts.eot#iefix") format("embedded-opentype"),
+	url("phyFonts.woff") format("woff"),
+	url("phyFonts.ttf") format("truetype"),
+	url("phyFonts.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before,
+[class^="icon-"]:after, [class*=" icon-"]:after {   
+	font-family: phyFonts;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 20px;
+}
+.icon-back-pain:before {
+	content: "\e800"
+}
+.icon-patient:before {
+	content: "\e801"
+}
+.icon-cripple:before {
+	content: "\e802"
+}
+.icon-atom:before {
+	content: "\e803"
+}
+.icon-broken:before {
+	content: "\e804"
+}
+.icon-medicine:before {
+	content: "\e805"
+}
+.icon-dna:before {
+	content: "\e807"
+}
+.icon-back:before {
+	content: "\e808"
+}
+.icon-human:before {
+	content: "\e809"
+}
+.icon-spond:before {
+	content: "\e80a"
+}
+.icon-human-1:before {
+	content: "\e80b"
+}
+.icon-x:before {
+	content: "\e80d"
+}
+.icon-xray:before {
+	content: "\e80e"
+}
+.icon-back-1:before {
+	content: "\e80f"
+}
+.icon-chest:before {
+	content: "\e810"
+}
+.icon-shoulder:before {
+	content: "\e811"
+}
+.icon-neck:before {
+	content: "\e812"
+}
+.icon-neck-1:before {
+	content: "\e813"
+}
+.icon-shoulder-1:before {
+	content: "\e814"
+}
+.icon-medical:before {
+	content: "\e815"
+}
+.icon-scia:before {
+	content: "\e816"
+}
+.icon-knee-pain:before {
+	content: "\e817"
+}
+.icon-dna-1:before {
+	content: "\e80c"
+}
+.icon-conversations:before {
+	content: "\e818"
+}
+.icon-ambulance-1:before {
+	content: "\e819"
+}
+.icon-biochemistry:before {
+	content: "\e81a"
+}
+.icon-medical-1:before {
+	content: "\e81b"
+}
+.icon-foot:before {
+	content: "\e81c"
+}
+.icon-call24:before {
+	content: "\e81d"
+}
+.icon-share:before {
+	content: "\e81e"
+}
+.icon-ambulance:before {
+	content: "\e806"
+}
+.icon-radiography:before {
+	content: "\e81f"
+}
+.icon-caduceus:before {
+	content: "\e820"
+}
+.icon-research:before {
+	content: "\e821"
+}
+.icon-md:before {
+	content: "\e822"
+}
+.icon-health:before {
+	content: "\e823"
+}
+.icon-operating:before {
+	content: "\e824"
+}
