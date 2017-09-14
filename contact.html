@@ -320,7 +320,9 @@
                     type: 'POST',
                     url: 'submit.php', // Your form script
                     data: post_data,
+                    dataType: JSON,
                     success: function(data) {
+                        console.log(response);
                         $(form).fadeOut(500, function() {
                             form.html(data).fadeIn();
                         });
