@@ -10,7 +10,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['msg'];
-$recipient = "info@ammaphysiotherapyclinic.com";
+$recipient = "syedbaji8@gmail.com";
 $subject = "Equire Form";
 $mailheader = "From: $email \r\n";
 
